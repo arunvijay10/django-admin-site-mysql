@@ -1,0 +1,4 @@
+create database student;
+use student;
+create table info(id_no int primary key auto_increment , name varchar default'name' email varchar not null);
+
