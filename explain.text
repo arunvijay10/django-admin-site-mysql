@@ -28,4 +28,9 @@ select count(name) from info; #total count
 
 select distinct(name) from info; #unique name
 
+select * from info where name='arunvijay' and age=25;
+
+select * from info where name='arunvijay' or  age=25;
+
+select * from info where name in('arunvijay'); #in is used to find the particular person is present or not
 
