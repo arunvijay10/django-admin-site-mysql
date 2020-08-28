@@ -12,10 +12,20 @@ insert into info(name,age) values("arunvijay",25);
 
 select * from info;
 
-select *  from info where age like '2_';
+select *  from info where age like '2_'; #_take extact 1
 
 select *  from info where age like '__';
 
 alter table info  add major varchar(100) not null;
 
 alter table info  modify  major varchar(60) not null;
+
+select * from info where name="arunvijay";
+
+alter table info drop  column major; #delete a table
+
+select count(name) from info; #total count
+
+select distinct(name) from info; #unique name
+
+
