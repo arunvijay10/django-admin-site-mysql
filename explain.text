@@ -34,3 +34,7 @@ select * from info where name='arunvijay' or  age=25;
 
 select * from info where name in('arunvijay'); #in is used to find the particular person is present or not
 
+select max(age) from info; #finding maximum 
+
+select min(age) from info;
+
