@@ -1,4 +1,21 @@
-create database student;
-use student;
-create table info(id_no int primary key auto_increment , name varchar default'name' email varchar not null);
+create database name;
 
+use name;
+
+create table info(name varchar(32) not null default 'name',age int); 
+
+show tables;
+
+desc info;
+
+insert into info(name,age) values("arunvijay",25);
+
+select * from info;
+
+select *  from info where age like '2_';
+
+select *  from info where age like '__';
+
+alter table info  add major varchar(100) not null;
+
+alter table info  modify  major varchar(60) not null;
