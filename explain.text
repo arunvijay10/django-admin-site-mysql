@@ -38,3 +38,6 @@ select max(age) from info; #finding maximum
 
 select min(age) from info;
 
+select avg(age) from info;
+
+select sum(age) from info;
