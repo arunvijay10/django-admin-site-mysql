@@ -43,3 +43,7 @@ select avg(age) from info;
 select sum(age) from info;
 
 update info  set marks = 45 where name="heart"; #Setting the value for a particular thing
+
+select min(marks) from info group by marks;
+
+select max(marks),marks from info group by marks having marks>20;
